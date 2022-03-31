@@ -1,0 +1,30 @@
+body{
+  background-image: url("imagens/planoDeFundo.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 5hv;
+}
+
+.video iframe{
+  float: left;
+  margin-right: 10px
+}
+
+.video #titulo{
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.voltamenu {
+  background-color: #0077B5;
+  color: white;
+  width:175px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.voltamenu:hover{
+  background-color:#08558B;
+}

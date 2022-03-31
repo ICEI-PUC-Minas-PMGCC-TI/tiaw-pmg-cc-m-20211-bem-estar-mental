@@ -7,7 +7,7 @@
     color: #323232;
     border: none;
 }
-body{ background-image:url('tela.jpg') ;
+body{ background-image:url('imagens/planoDeFundo.jpeg') ;
 background-size: cover;
 background-position-y: -200px;}
 textarea:focus, input:focus{
@@ -15,13 +15,14 @@ outline: none;
 }
 a{
     font-size: .8rem;
+    color: #0077B5;
 }
 a:hover{
-    color: #08558b;
+    color: #08558B;
 }
 /*container login*/
 #login-container{
-    background-color: #FFF;
+    background-color: rgb(255, 255, 255);
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -65,10 +66,10 @@ input[type="submit"] {
     border-radius: 20px;
     margin-top: 30px;
     color: #FFF;
-    background-color: #21a056;
+    background-color:#0077B5;
     cursor: pointer;
 }
-input[type="submit"]:hover {background-color: #126d09;
+input[type="submit"]:hover {background-color:#08558B;
     transition: .5s;
 }
 /*Redes Sociais*/
@@ -90,6 +91,11 @@ cursor: pointer;
 .fa-linkedin{
     background-color: #0077B5;
 }
+
+.fa-google-plus{
+    background-color: rgb(190, 54, 0);
+}
+
 /*registrar*/
 #register-container{
     margin-bottom: 10px;

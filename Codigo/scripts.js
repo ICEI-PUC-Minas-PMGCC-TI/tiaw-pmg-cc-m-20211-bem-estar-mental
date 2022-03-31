@@ -153,15 +153,45 @@ class Validator {
     validations.forEach((el) => el.remove());
   }
 }
+
 let form = document.getElementById("register-form");
+//let form = document.getElementById("login-form");
+
+function guardar() {
+
+  var email = document.getElementById("email").value;
+  localStorage.setItem('email', name.value);
+
+  password = document.getElementById("password").value; localStorage.setItem('password', password.value);
+
+  nome = document.getElementById("nome").value;
+  localStorage.setItem('nome', nome.value);
+
+  sobrenome = document.getElementById("sobrenome").value;
+  localStorage.setItem('sobrenome', sobrenome.value);
+}
+
+function checar() {
+  var storedemail = localStorage.getItem('email');
+    var storedpassword = localStorage.getItem('password');
+  var uemail = document.getElementById("uemail").value;
+  var upassword = document.getElementById("upassword").value;
+  if (email.value == storedemail && upassword.value == storedpassword) {
+    alert('Bem vindo!');
+    window.location.assign("home.html")
+  } else {
+    alert('Usiuario ou Senha inválidos.');
+  }
+}
 
 
 let validator = new Validator();
 form.addEventListener("submit", function (evento) {
   validator.validate(form);
   let inputs = document.querySelectorAll('input')
-  for(let i = 0; i < inputs.length - 3; i++){
+  for (let i = 0; i < inputs.length - 3; i++) {
     localStorage.setItem(inputs[i].name, inputs[i].value)
-  } 
+  }
 });
+
 

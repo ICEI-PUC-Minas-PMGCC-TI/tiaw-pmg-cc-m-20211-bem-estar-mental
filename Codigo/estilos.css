@@ -19,14 +19,18 @@ label:focus {
 }
 
 a {
-  color: #85ad2f;
+  color: #0077B5;
+}
+a:hover{
+    color: #08558B;
 }
 
 body {
   padding: 5vh;
-  background-image: url("tela.jpg");
+  background-image: url("imagens/planoDeFundo.jpeg");
   background-size: cover;
   background-position-y: -150px;
+  background-repeat: no-repeat;
 }
 
 #main-container {
@@ -81,7 +85,7 @@ input:focus {
 }
 
 input[type="submit"] {
-  background-color: #21a056;
+  background-color: #0077B5;
   color: white;
   border: none;
   border-radius: 20px;
@@ -91,7 +95,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover{
-  background-color: #126d09;
+  background-color: #08558B;
   transition: .05s;
 }
 

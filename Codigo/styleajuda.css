@@ -1,8 +1,35 @@
 
-  body{background-image:url("tela.jpg");
+  body{background-image:url("imagens/planoDeFundo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   
   }
-  h1{
-    color: #FFF;
+  body{
+    color:#FFF;
      font-family: Helvetica, sans-serif;
+     margin-top: 10px;
+     margin-left: 20px;
   }
+
+  body h1{
+    text-decoration: underline;
+    
+  }
+
+  body p{
+    text-align: justify;
+  }
+a{
+  color: white;
+}
+.voltamenu{
+  background-color: #0077B5;
+  color: white;
+  width:175px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.voltamenu:hover{
+  background-color:#08558B;
+}
