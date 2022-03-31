@@ -16,7 +16,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  background-image:url('imagens/tela.jpg');
+  background-image:url('tela.jpg');
   font-family: Lato, Arial, sans-serif;
 }
 h1 {

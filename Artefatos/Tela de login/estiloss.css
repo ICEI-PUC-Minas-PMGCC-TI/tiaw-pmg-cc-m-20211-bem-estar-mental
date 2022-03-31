@@ -7,7 +7,7 @@
     color: #323232;
     border: none;
 }
-body{ background-image:url('tela.jpg') ;
+body{ background-image:url('imgs/1646c6f7-354b-407f-9815-d01b35af19ae.jpg') ;
 background-size: cover;
 background-position-y: -200px;}
 textarea:focus, input:focus{
@@ -65,7 +65,7 @@ input[type="submit"] {
     border-radius: 20px;
     margin-top: 30px;
     color: #FFF;
-    background-color: #21a056;
+    background-color: #85ad2f;
     cursor: pointer;
 }
 input[type="submit"]:hover {background-color: #126d09;

@@ -1,18 +1,21 @@
-# Nome do projeto
+# Nome do projeto: Seu Bem Estar Mental
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Somos estudantes do 1º período de Ciências da Computação da PUC Minas, Coréu. Este projeto foi realizado no intuito de auxiliar idosos nesse período de pandemia, já que diversas pesquisas mostram que durante esse intervalo houve um grande aumento tanto nos casos de depressão quanto de ansiedade.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Athayde De Queiroz
+* Henrique Azevedo Andrade Silva
+* Matheus Silveira Flosi
+
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Rommel Carneiro
+* Ilo Amy
+* João Carlos Oliveira
+* Fatima De Lima
+* Cristiane Neri 
 
 ## Instruções de utilização
 
